@@ -8,6 +8,9 @@ In preperation of summer course and use of Nvidia products at work, get fimiliar
 Re-evaluate current continuing education path.  Reseearch/consider alternatives and consider benefit to current job position (Autonomy Robotics) and desired career path.  To finish MS at UC boulder, need to complete three (3) more core embedded systems courses and three(3) electives. Ideally, could pick electives related to autonomy, robotics or embedded vision / visual perception.  Alternatively, could consider just getting graduate certificate (req. 2 more classes) and pursuing a second graduate certificate. 
 *   [Standford Autonomy Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)
 *   [UC Boulder Embedded Systems](https://www.colorado.edu/ecee/graduate-program/degrees/embedded-systems)
+   -   Job-applicable Electives
+      -   ASEN 5044 - Statistical Estimation for Dynamical Systems
+      -   CSCI 4229 - Computer Graphics
 
 ***
 
