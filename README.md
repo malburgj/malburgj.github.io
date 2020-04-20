@@ -1,10 +1,10 @@
 ### Nvidia Jetson Nano Work
 In preperation of summer course and use of Nvidia products at work, get fimiliar with working with Nano and Deep Learning / AI applications.
 *   [Assembled Sparkfun JetBot](https://learn.sparkfun.com/tutorials/assembly-guide-for-sparkfun-jetbot-ai-kit-v20/all)
-*   [Software Setup](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Software-Setup)(not required for Sparkfun JetBot)
+*   [Software Setup](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Software-Setup) (_not required at Sparkfun JetBot start_)
 *   [Nvidia Examples Github](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/examples)
 *   [Nvidia Courses](https://www.nvidia.com/en-us/deep-learning-ai/education/)
-*   [Embedded Linux Jetson Nano](https://elinux.org/Jetson_Nano) _Includes list of compatible cameras_
+*   [Embedded Linux Jetson Nano](https://elinux.org/Jetson_Nano) (_Includes list of compatible cameras_)
 *   [Nvidia Developer's Forum](https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/jetson-nano/76)
 
 ***
