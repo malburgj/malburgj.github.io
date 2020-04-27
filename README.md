@@ -39,7 +39,8 @@ Find books for filling knowledge gaps.  Highest priority gaps are autonomy, stat
 
 ### Articles
 #### State Estimation
-*  [What is State Estimation? and the Bayes Filter](https://johnwlambert.github.io/bayes-filter/)
+*  [ ] [What is State Estimation? and the Bayes Filter](https://johnwlambert.github.io/bayes-filter/)
 #### Vision-based Autonomy
-*  [R‐ADVANCE: Rapid Adaptive Prediction for Vision‐based Autonomous Navigation, Control, and Evasion](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21744)
-*  [Faster than FAST: GPU-Accelerated Frontend for High-Speed VIO](http://rpg.ifi.uzh.ch/docs/Arxiv20_Nagy.pdf)
+*  [x] [R‐ADVANCE: Rapid Adaptive Prediction for Vision‐based Autonomous Navigation, Control, and Evasion](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21744)
+*  [x] [Faster than FAST: GPU-Accelerated Frontend for High-Speed VIO](http://rpg.ifi.uzh.ch/docs/Arxiv20_Nagy.pdf)
+*  [x] [Faster, Lighter, Smarter: DARPA Gives Small Autonomous Systems a Tech Boost](https://www.darpa.mil/news-events/2018-07-18)
