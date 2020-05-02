@@ -8,14 +8,13 @@ In preperation of summer course and use of Nvidia products at work, get fimiliar
 *   [Nvidia Developer's Forum](https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/jetson-nano/76)
 
 ***
-
 ### Continuing Education Opportunities
 Re-evaluate current continuing education path.  Reseearch/consider alternatives and consider benefit to current job position (Autonomy Robotics) and desired career path.  To finish MS at UC boulder, need to complete three (3) more core embedded systems courses and three(3) electives. Ideally, could pick electives related to autonomy, robotics or embedded vision / visual perception.  Alternatively, could consider just getting graduate certificate (req. 2 more classes) and pursuing a second graduate certificate. 
 *   [Stanford Autonomy Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)
 - [UC Boulder Embedded Systems](https://www.colorado.edu/ecee/graduate-program/degrees/embedded-systems)
   - Potential Electives / Courses
     - [ASEN 5044] Statistical Estimation for Dynamical Systems
-    - [CSCI 4229] Computer Graphics
+    - [CSCI 5229] Computer Graphics
     - [ECEN 5244] Stochastic / Environmental Signal Processing
     - [ECEN 5673] Distributed Systems
     - [ECEN 5273] Network Systems
@@ -27,7 +26,6 @@ Re-evaluate current continuing education path.  Reseearch/consider alternatives 
     - [ECEN 5623] Real-time Embedded Systems (ESE CORE)
 
 ***
-
 ### Books
 Find books for filling knowledge gaps.  Highest priority gaps are autonomy, state estimation, navigation and visual perception.
 
@@ -36,7 +34,6 @@ Find books for filling knowledge gaps.  Highest priority gaps are autonomy, stat
 *   [S.Thrun (2005). _Probabilitic Robotics_](https://www.amazon.com/Probabilistic-Robotics-INTELLIGENT-ROBOTICS-AUTONOMOUS-dp-0262201623/dp/0262201623/ref=mt_hardcover?_encoding=UTF8&me=&qid=)
 
 ***
-
 ### Articles
 #### State Estimation
 *  [ ] [What is State Estimation? and the Bayes Filter](https://johnwlambert.github.io/bayes-filter/)
@@ -45,6 +42,7 @@ Find books for filling knowledge gaps.  Highest priority gaps are autonomy, stat
 *  [x] [Faster than FAST: GPU-Accelerated Frontend for High-Speed VIO](http://rpg.ifi.uzh.ch/docs/Arxiv20_Nagy.pdf)
 *  [x] [Faster, Lighter, Smarter: DARPA Gives Small Autonomous Systems a Tech Boost](https://www.darpa.mil/news-events/2018-07-18)
 
+***
 ### Alternative Living
 * [Ojai Tiny House Community](https://www.facebook.com/groups/1311696078846712/?fref=gc&dti=886839901368363&hc_location=ufi)
 * [Tiny House](https://www.treehugger.com/tiny-houses/where-to-park-tiny-house.html)
