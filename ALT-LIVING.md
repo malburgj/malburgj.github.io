@@ -2,6 +2,7 @@
 layout: page
 title: "Alternative Living"
 permalink: /living/
+filename: ALT-LIVING.md
 ---
 
 ### Alternative Living
