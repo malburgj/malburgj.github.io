@@ -44,3 +44,8 @@ Find books for filling knowledge gaps.  Highest priority gaps are autonomy, stat
 *  [x] [R‐ADVANCE: Rapid Adaptive Prediction for Vision‐based Autonomous Navigation, Control, and Evasion](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21744)
 *  [x] [Faster than FAST: GPU-Accelerated Frontend for High-Speed VIO](http://rpg.ifi.uzh.ch/docs/Arxiv20_Nagy.pdf)
 *  [x] [Faster, Lighter, Smarter: DARPA Gives Small Autonomous Systems a Tech Boost](https://www.darpa.mil/news-events/2018-07-18)
+
+### Alternative Living
+* [Ojai Tiny House Community](https://www.facebook.com/groups/1311696078846712/?fref=gc&dti=886839901368363&hc_location=ufi)
+* [Tiny House](https://www.treehugger.com/tiny-houses/where-to-park-tiny-house.html)
+* [Prefab Homes](https://buildcover.com/)
