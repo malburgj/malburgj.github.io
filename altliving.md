@@ -1,7 +1,7 @@
 ---
 title: alternative living
 layout: template
-filename: ALTLIVING
+filename: altliving
 --- 
 ### Alternative Living
 * [Ojai Tiny House Community](https://www.facebook.com/groups/1311696078846712/?fref=gc&dti=886839901368363&hc_location=ufi)

@@ -1,7 +1,7 @@
 ---
 title: Index
 layout: template
-filename: INDEX
+filename: index
 --- 
 
 *   Nvidia Course Work
