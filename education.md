@@ -1,3 +1,4 @@
+<<<<<<< HEAD:README.md
 ### Nvidia Jetson Nano Work
 In preperation of summer course and use of Nvidia products at work, get fimiliar with working with Nano and Deep Learning / AI applications.
 *   [Sparkfun JetBot Assembly Guide](https://learn.sparkfun.com/tutorials/assembly-guide-for-sparkfun-jetbot-ai-kit-v20/all)
@@ -8,6 +9,13 @@ In preperation of summer course and use of Nvidia products at work, get fimiliar
 *   [Nvidia Developer's Forum](https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/jetson-nano/76)
 
 ***
+=======
+---
+title: Continuing Education
+layout: template
+filename: education
+--- 
+>>>>>>> gh-pages:education.md
 ### Continuing Education Opportunities
 Re-evaluate current continuing education path.  Reseearch/consider alternatives and consider benefit to current job position (Autonomy Robotics) and desired career path.  To finish MS at UC boulder, need to complete three (3) more core embedded systems courses and three(3) electives. Ideally, could pick electives related to autonomy, robotics or embedded vision / visual perception.  Alternatively, could consider just getting graduate certificate (req. 2 more classes) and pursuing a second graduate certificate. 
 *   [Stanford Autonomy Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)
@@ -40,6 +48,7 @@ Find books for filling knowledge gaps.  Highest priority gaps are autonomy, stat
 #### Vision-based Autonomy
 *  [x] [R‐ADVANCE: Rapid Adaptive Prediction for Vision‐based Autonomous Navigation, Control, and Evasion](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21744)
 *  [x] [Faster than FAST: GPU-Accelerated Frontend for High-Speed VIO](http://rpg.ifi.uzh.ch/docs/Arxiv20_Nagy.pdf)
+<<<<<<< HEAD:README.md
 *  [x] [Faster, Lighter, Smarter: DARPA Gives Small Autonomous Systems a Tech Boost](https://www.darpa.mil/news-events/2018-07-18)
 
 ***
@@ -47,3 +56,6 @@ Find books for filling knowledge gaps.  Highest priority gaps are autonomy, stat
 * [Ojai Tiny House Community](https://www.facebook.com/groups/1311696078846712/?fref=gc&dti=886839901368363&hc_location=ufi)
 * [Tiny House](https://www.treehugger.com/tiny-houses/where-to-park-tiny-house.html)
 * [Prefab Homes](https://buildcover.com/)
+=======
+*  [x] [Faster, Lighter, Smarter: DARPA Gives Small Autonomous Systems a Tech Boost](https://www.darpa.mil/news-events/2018-07-18)
+>>>>>>> gh-pages:education.md
