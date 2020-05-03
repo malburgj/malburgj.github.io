@@ -1,11 +1,7 @@
 ---
-title: Index
+title: Home
 layout: template
 filename: index
 --- 
 
-*   Nvidia Course Work
-*   Continuing Education Opportunities
-*   Books
-*   Articles
-*   Alternative Living
+Github page to capture personal and professional interests.
