@@ -12,6 +12,7 @@ Installed anancoda and read through the Preface chapter.  This is my first exper
 *   Install filterPy library (`pip install filterpy`)
 *   Launch jupyter notebook (jupyter notebook)
 *   To deactivate conda environment: `coda deactivate/activate`
+
 #### Chapter 1
 Notes from chapter:
 *   In Jupyter Notebook you can open the source code by typing the function name followed by two question marks (e.g. plot_errorbars??); if followed by one question mark, it will open the funciton documentation.
