@@ -31,3 +31,4 @@ I'm currently using a custom, makeshift framework but want to start using a wide
 
 ### Test Metrics
 Need to do more research in this area.  Would like to find a tool that provides a graphical interfave and same capability as [Simulink Coverage](https://www.mathworks.com/products/simulink-coverage.html) toolbox.
+*   [Gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
