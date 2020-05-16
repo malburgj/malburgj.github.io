@@ -31,13 +31,14 @@ Notes from chapter:
 
 #### Chapter 2
 Discrete Bayes Filter.  Walks through how to predict a dogs position in a hallway, using a sonar sensor that returns 1 if in front of a door and 0 otherwise.  This would have been helpful to go through before implementing BATAN!!!
-*   Notes for BATAN
-	*   update_belief applies a scale/weight to the postive and negative readings (matches); this represents the accuracy of the measurement.  This is similar to the measurement diff cost function.
-	*   the update_belief out put is likelihood.  To turn the array into a probability density function, the cells need to be normalized by the sum of all array elements (i.e. sum of all elements equals one).
-	*   Should turn measurement diff cost function into a probability using cell mean and standard deviation, or make some assumption about measurement accuracy using gradient
- 	*   the example accounts for movement error by convolving with a 1x3 kernel ([0.1 0.8 0.1]); which means the filter believes there's a 10% chance the movement overshoot, 10% it undershoot and 80% its exact.
+*   update_belief computes the likelihood score by applying a scale/weight to the postive (match) and negative readings.  The weight is a function of the accuracy of the the measurement.  In most cases, the measurement accuracy is expressed as a gaussian function (mean & standard deviation).  
+*   BATAN uses a trapezoidal cost function.  Should turn measurement diff cost function into a probability using cell mean and standard deviation, or make some assumption about measurement accuracy using gradient
+*   The likelihood score is converted to a probability density function by normalizing cell values using the sum of all cells (i.e. sum of all elements equals one after normalization).
 *   this chapter has some great animations!
-*   we are convolving the current probabilistic position estimate with a probabilistic estimate of how much we think the position moved; this is where we should be using the position uncertainty.  In the precenses of drift, the uncertainty should grow with time... unless somehow we can estimate the position drift (i.e. velocity error).
+*   we are convolving the current probabilistic position estimate with a probabilistic estimate of how much we think the position moved.
+	*   the example accounts for movement error by convolving with a 1x3 kernel ([0.1 0.8 0.1]); which means the filter believes there's a 10% probability the movement overshoot, 10% it undershoot and 80% its exact.
+	*   this is where position uncertainty is applied.  In the precenses of drift, the uncertainty should grow with time... unless somehow we can estimate the position drift (i.e. velocity error).
+ 
 *   Terminology
  	*   prior
  	*   posterior
