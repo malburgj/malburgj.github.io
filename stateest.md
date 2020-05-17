@@ -32,14 +32,14 @@ Notes from chapter:
 #### Chapter 2
 Discrete Bayes Filter.  This chapter demonstrates how to use a Bayes filter to predict a dogs position in a hallway, with a sonar sensor that returns 1 if in front of a door and 0 otherwise.  The output of the sensor has a categorical distribution because it can only have one of N outcomes.  Like the g-h filter, the Bayes filter process has two steps: predict and update.
 *   Process
-   *   Predict
-       *   Formulate prediction by moving the prior.
-       *   Add uncertainty to this movement by convolving with the movement error model; this smears the prior based on uncertainty in movement between steps.  In this process step, certainty degrades because we lose confidence of prior knowledge with each prediction (i.e. old measurement data decays because it is stale).
-   *   Update
-       *   Now update by calculating the likelihood score using the measurement and measurement error model.  Certainty of true positive(s) should grow because new information was added.
-       *   Multiply likelihood and prior
-       *   Convert product to probability (normalize using cumulative sum); result is the posterior (probability, sum of all is one(1)).
-   *   we are convolving the current probabilistic position estimate with a probabilistic estimate of how much we think the position moved.
+    *   Predict
+        *   Formulate prediction by moving the prior.
+        *   Add uncertainty to this movement by convolving with the movement error model; this smears the prior based on uncertainty in movement between steps.  In this process step, certainty degrades because we lose confidence of prior knowledge with each prediction (i.e. old measurement data decays because it is stale).
+    *   Update
+        *   Now update by calculating the likelihood score using the measurement and measurement error model.  Certainty of true positive(s) should grow because new information was added.
+        *   Multiply likelihood and prior
+        *   Convert product to probability (normalize using cumulative sum); result is the posterior (probability, sum of all is one(1)).
+    *   we are convolving the current probabilistic position estimate with a probabilistic estimate of how much we think the position moved.
 *	Notes on the example   
     *   update_belief computes the likelihood score by applying a scale/weight to the postive (matches door) ~~and negative~~ readings only.  The weight is a function of the accuracy of the the measurement.  In the example, the scale is 0.75 (measurement is correct 3 out of 4 times).  In many cases, the measurement error can be expressed as a gaussian function (standard deviation).    
     *   the example accounts for movement error by convolving with a 1x3 kernel ([0.1 0.8 0.1]); which means the filter believes there's a 10% probability the movement overshoot, 10% it undershoot and 80% its exact.  This is where position uncertainty is applied.  In the precenses of drift, should the uncertainty grow with time?  How would this filter/implementation behave in the presence of drift?  Could the drift be estimated somehow?
